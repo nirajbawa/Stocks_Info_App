@@ -4,6 +4,6 @@ const router = new express.Router()
 
 // routes and controller
 
-router.get("/api/", api)
+router.get("/api", api)
 
 module.exports = router

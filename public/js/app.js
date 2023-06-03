@@ -72,6 +72,7 @@ document.body.onload = () => {
     let fetchdata = async () => {
         try {
             let response = await fetch("/api/")
+            console.log(response)
             data = await response.json()
             console.log(data)
 

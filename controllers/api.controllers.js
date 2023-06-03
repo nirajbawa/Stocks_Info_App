@@ -4,6 +4,7 @@ const apiDataSchemaModel = require("../models/api.model");
 let api = async (req, res) => {
     // fettching top 10 data from api and store in database
     try{
+        console.log("ok1")
         let datastore = await fetchAndStoreData();
         if(datastore)
         {
@@ -11,7 +12,7 @@ let api = async (req, res) => {
             const result = await apiDataSchemaModel.find()
             .sort({ timestamp: -1 })
             .limit(10);
-
+            console.log("ok2")
             res.status(200).send(result)
         }
         else{
