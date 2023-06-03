@@ -1,3 +1,4 @@
+const { default: axios } = require("axios");
 const apiDataSchemaModel = require("../models/api.model");
 
 
@@ -32,8 +33,8 @@ let api = async (req, res) => {
 let fetchAndStoreData = async () => {
     try {
         // fetching data from api
-        let response = await fetch("https://api.wazirx.com/api/v2/tickers/")
-        let data = await response.json()
+        let response = await axios("https://api.wazirx.com/api/v2/tickers/")
+        let data = response.data
 
         // store top 10 objs from api
 
