@@ -98,13 +98,13 @@ document.body.onload = () => {
                 let randomno = Math.floor((Math.random() * 5) + 1);
                 let dataEle = ` 
                 <tr class="bg-[#f8f9fa] rounded-xl dark:bg-[#2e3241] ">
-                    <td style="border-radius: 10px 0px 0px 10px;" class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
-                    <td class="flex justify-center items-center text-center content-center py-1 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
-                    <td style="border-radius: 0px 10px 10px 0px;"  class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
-                    </tr>
+                <td style="border-radius: 10px 0px 0px 10px;" class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
+                <td class="flex justify-center items-center text-center content-center py-3 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
+                <td style="border-radius: 0px 10px 10px 0px;"  class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
+                </tr>
         `
                 datatable.insertAdjacentHTML("beforeend", dataEle)
 
@@ -150,12 +150,12 @@ document.body.onload = () => {
                 let randomno = Math.floor((Math.random() * 5) + 1);
                 let dataEle = ` 
                 <tr class="bg-[#f8f9fa] rounded-xl dark:bg-[#2e3241] ">
-                <td style="border-radius: 10px 0px 0px 10px;" class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
-                <td class="flex justify-center items-center text-center content-center py-1 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
-                <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
-                <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
-                <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
-                <td style="border-radius: 0px 10px 10px 0px;"  class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
+                <td style="border-radius: 10px 0px 0px 10px;" class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
+                <td class="flex justify-center items-center text-center content-center py-3 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
+                <td style="border-radius: 0px 10px 10px 0px;"  class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
                 </tr>
         `
                 datatable.insertAdjacentHTML("beforeend", dataEle)
@@ -167,12 +167,12 @@ document.body.onload = () => {
                     let randomno = Math.floor((Math.random() * 5) + 1);
                     let dataEle = ` 
                     <tr class="bg-[#f8f9fa] rounded-xl dark:bg-[#2e3241] ">
-                    <td style="border-radius: 10px 0px 0px 10px;" class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
-                    <td class="flex justify-center items-center text-center content-center py-1 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
-                    <td style="border-radius: 0px 10px 10px 0px;"  class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
+                    <td style="border-radius: 10px 0px 0px 10px;" class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
+                    <td class="flex justify-center items-center text-center content-center py-3 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
+                    <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
+                    <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
+                    <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
+                    <td style="border-radius: 0px 10px 10px 0px;"  class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
                     </tr>
             `
                     datatable.insertAdjacentHTML("beforeend", dataEle)
@@ -196,12 +196,12 @@ document.body.onload = () => {
                 let randomno = Math.floor((Math.random() * 5) + 1);
                 let dataEle = ` 
                 <tr class="bg-[#f8f9fa] rounded-xl dark:bg-[#2e3241] ">
-                <td style="border-radius: 10px 0px 0px 10px;" class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
-                <td class="flex justify-center items-center text-center content-center py-1 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
-                <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
-                <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
-                <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
-                <td style="border-radius: 0px 10px 10px 0px;"  class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
+                <td style="border-radius: 10px 0px 0px 10px;" class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
+                <td class="flex justify-center items-center text-center content-center py-3 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
+                <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
+                <td style="border-radius: 0px 10px 10px 0px;"  class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
                 </tr>
         `
                 datatable.insertAdjacentHTML("beforeend", dataEle)
@@ -213,12 +213,12 @@ document.body.onload = () => {
                     let randomno = Math.floor((Math.random() * 5) + 1);
                     let dataEle = ` 
                     <tr class="bg-[#f8f9fa] rounded-xl dark:bg-[#2e3241] ">
-                    <td style="border-radius: 10px 0px 0px 10px;" class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
-                    <td class="flex justify-center items-center text-center content-center py-1 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
-                    <td class="py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
-                    <td style="border-radius: 0px 10px 10px 0px;"  class=" py-1 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
+                    <td style="border-radius: 10px 0px 0px 10px;" class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${i}</td>
+                    <td class="flex justify-center items-center text-center content-center py-3 md:py-3 gap-2 text-[0.9rem]  sm:text-[1.1rem] lg:text-[1.5rem] font-medium"> <img src="/images/ic${randomno}.png" alt="icon" class="h-6 rounded-xl"> ${ele.name}</td>
+                    <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.last}</td>
+                    <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">₹ ${ele.buy} / ₹ ${ele.sell}</td>
+                    <td class="py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] ${ele.volume >= 0 ? 'text-[#5dc7c2]' : 'text-[#da5757]'} font-medium">${ele.volume}</td>
+                    <td style="border-radius: 0px 10px 10px 0px;"  class=" py-3 md:py-3 text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] lg:text-[1.5rem] font-medium">${ele.base_unit}</td>
                     </tr>
             `
                     datatable.insertAdjacentHTML("beforeend", dataEle)
