@@ -7,6 +7,7 @@ const session = require('express-session')
 const cookieParser = require("cookie-parser")
 const bodyParser = require('body-parser')
 
+// creating app
 
 const app = express()
 const port = process.env.PORT || 8000
